@@ -1,7 +1,7 @@
 {
   "name": "o6web/data-request-api",
   "description": "Simple helper for interacting with the O6 Web Properties Data Request API",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "https://o6web.net",
   "license": "MIT",
   "authors": [
@@ -16,7 +16,7 @@
     "source": "https://github.com/o6web/DataRequestApi"
   },
   "require": {
-    "php": ">=7.4.0",
+    "php": ">=8.5.0",
     "ext-curl": "*",
     "ext-json": "*"
   },

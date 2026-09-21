@@ -61,7 +61,6 @@ class DataRequestApi
 		}
 
 		$data = curl_exec($c);
-		curl_close($c);
 
 		if ($data) {
 			return json_decode($data, false, 512, JSON_THROW_ON_ERROR);
